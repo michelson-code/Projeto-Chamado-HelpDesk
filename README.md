@@ -25,10 +25,13 @@ Simple **HelpDesk** system for registering and tracking support tickets, develop
 
 1. Make sure you have a C++ compiler installed (for example, `g++`).
 2. Compile the project:
-g++ DeskHelp.cpp -o helpdesk
 
-text
-3. Run the binary:
+'''bashe
+g++ DeskHelp.cpp -o helpdesk
+'''
+
+4. Run the binary:
+
 '''bash
 ./helpdesk
 '''
@@ -38,6 +41,7 @@ text
 
 1. Make sure you have Python 3 installed.
 2. Run the script:
+
 '''bash
 python DeskHelp.py
 '''
