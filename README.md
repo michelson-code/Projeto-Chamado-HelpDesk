@@ -34,9 +34,7 @@ g++ DeskHelp.cpp -o helpdesk
 text
 4. Run the binary:
 
-'''bash
 ./helpdesk
-'''
 
 
 ### Python (`DeskHelp.py`)
