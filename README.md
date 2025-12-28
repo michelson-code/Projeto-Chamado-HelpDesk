@@ -1,27 +1,49 @@
-# Projeto: Chamado de HelpDesk
+# [EN] Project: HelpDesk Ticket System
 
-Sistema **HelpDesk** simples para registro e acompanhamento de chamados, desenvolvido em C++ e Python como exercício de programação estruturada e orientação a objetos.[web:1]  
+Simple **HelpDesk** system for registering and tracking support tickets, developed in C++ and Python as an exercise in structured programming and object-oriented design.  
 
-## Objetivos do projeto
+## Project goals
 
-- Permitir o cadastro de chamados com informações básicas (solicitante, descrição, prioridade, status).
-- Gerenciar a fila de atendimento (abertura, atualização e encerramento de chamados).
-- Explorar conceitos de estrutura de dados e lógica de negócios aplicados a sistemas de suporte.
+- Allow users to register tickets with basic information (requester, description, priority, status).
+- Manage the support queue (opening, updating, and closing tickets).
+- Explore data structure concepts and business logic applied to support systems.
 
-## Tecnologias utilizadas
+## Technologies used
 
-- C++ (implementação principal e/ou versão de console).[web:1]  
-- Python (versão alternativa ou scripts de apoio).[web:1]  
+- C++ (main implementation and/or console version).
+- Python (alternative implementation or auxiliary scripts).
 
-## Estrutura do repositório
+## Repository structure
 
-- `DeskHelp.cpp`: implementação em C++ do sistema de chamados.  
-- `DeskHelp.py`: implementação em Python do sistema de chamados.  
-- `LICENSE`: licença GPL-3.0 que rege o uso e distribuição deste código.[web:1]  
+- `DeskHelp.cpp`: C++ implementation of the ticket system.
+- `DeskHelp.py`: Python implementation of the ticket system.
+- `LICENSE`: GPL-3.0 license that governs the use and distribution of this code.  
 
-## Como executar
+## How to run
 
-### C++ (DeskHelp.cpp)
+### C++ (`DeskHelp.cpp`)
 
-1. Certifique-se de ter um compilador C++ (por exemplo, `g++`) instalado.
-2. Compile o projeto:
+1. Make sure you have a C++ compiler installed (for example, `g++`).
+2. Compile the project:
+g++ DeskHelp.cpp -o helpdesk
+
+text
+3. Run the binary:
+'''bash
+./helpdesk
+'''
+
+
+### Python (`DeskHelp.py`)
+
+1. Make sure you have Python 3 installed.
+2. Run the script:
+'''bash
+python DeskHelp.py
+'''
+
+
+## License
+
+This project is licensed under the GPL-3.0 License.  
+See the `LICENSE` file for more details.
