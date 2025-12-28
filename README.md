@@ -1,3 +1,4 @@
+text
 # [EN] Project: HelpDesk Ticket System
 
 Simple **HelpDesk** system for registering and tracking support tickets, developed in C++ and Python as an exercise in structured programming and object-oriented design.  
@@ -19,6 +20,7 @@ Simple **HelpDesk** system for registering and tracking support tickets, develop
 - `DeskHelp.py`: Python implementation of the ticket system.
 - `LICENSE`: GPL-3.0 license that governs the use and distribution of this code.  
 
+text
 ## How to run
 
 ### C++ (`DeskHelp.cpp`)
@@ -31,6 +33,7 @@ Simple **HelpDesk** system for registering and tracking support tickets, develop
 g++ DeskHelp.cpp -o helpdesk
 '''
 
+text
 4. Run the binary:
 
 '''bash
